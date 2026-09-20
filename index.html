@@ -1,0 +1,1605 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GLO Pinnacle Towers Realty Ltd | Premium Real Estate in Surulere, Lagos</title>
+<meta name="description" content="GLO Pinnacle Towers Realty Ltd - A trusted women-owned real estate agency in Surulere, Lagos. Buy, sell, rent and manage premium residential and commercial properties across Lagos.">
+<meta name="keywords" content="real estate agent in Surulere Lagos, properties for sale in Lagos, luxury homes Lagos, property management Lagos, women-owned real estate Nigeria">
+
+<!-- Open Graph -->
+<meta property="og:title" content="GLO Pinnacle Towers Realty Ltd | Premium Real Estate in Lagos">
+<meta property="og:description" content="Find your place in Lagos with GLO Pinnacle Towers Realty Ltd. Trusted women-owned real estate agency offering sales, rentals, and property management.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200">
+
+<!-- Schema Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "name": "GLO Pinnacle Towers Realty Ltd",
+  "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200",
+  "telephone": "+2349013608051",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "4 Olatilewa St",
+    "addressLocality": "Surulere",
+    "addressRegion": "Lagos",
+    "postalCode": "101283",
+    "addressCountry": "NG"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "7"
+  },
+  "openingHours": "Mo-Fr 08:30-17:30, Sa 09:00-15:00"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+  :root {
+    --navy: #0A1F44;
+    --navy-light: #152A52;
+    --gold: #C9A961;
+    --gold-light: #D9BE7A;
+    --gold-dark: #A8894A;
+    --off-white: #FAF8F3;
+    --cream: #F3EFE6;
+    --charcoal: #2C2C2C;
+    --muted: #6B7280;
+  }
+
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    color: var(--charcoal);
+    background: var(--off-white);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6, .serif {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: -0.01em;
+  }
+
+  .gold-text { color: var(--gold); }
+  .navy-text { color: var(--navy); }
+  .bg-navy { background: var(--navy); }
+  .bg-gold { background: var(--gold); }
+  .bg-cream { background: var(--cream); }
+  .bg-off-white { background: var(--off-white); }
+  .border-gold { border-color: var(--gold); }
+
+  .btn-gold {
+    background: var(--gold);
+    color: var(--navy);
+    transition: all 0.3s ease;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+  .btn-gold:hover {
+    background: var(--gold-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(201, 169, 97, 0.3);
+  }
+
+  .btn-outline {
+    border: 1.5px solid var(--navy);
+    color: var(--navy);
+    transition: all 0.3s ease;
+    font-weight: 600;
+  }
+  .btn-outline:hover {
+    background: var(--navy);
+    color: white;
+  }
+
+  .btn-navy {
+    background: var(--navy);
+    color: white;
+    transition: all 0.3s ease;
+    font-weight: 600;
+  }
+  .btn-navy:hover {
+    background: var(--navy-light);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(10, 31, 68, 0.3);
+  }
+
+  /* Header */
+  .header {
+    transition: all 0.3s ease;
+    background: rgba(250, 248, 243, 0.95);
+    backdrop-filter: blur(12px);
+  }
+  .header.scrolled {
+    box-shadow: 0 4px 20px rgba(10, 31, 68, 0.08);
+  }
+
+  .nav-link {
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--gold);
+    transition: width 0.3s ease;
+  }
+  .nav-link:hover::after,
+  .nav-link.active::after {
+    width: 100%;
+  }
+  .nav-link:hover, .nav-link.active {
+    color: var(--gold);
+  }
+
+  /* Hero */
+  .hero {
+    position: relative;
+    min-height: 90vh;
+    background-image: linear-gradient(rgba(10, 31, 68, 0.55), rgba(10, 31, 68, 0.75)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  @media (max-width: 768px) {
+    .hero { background-attachment: scroll; }
+  }
+
+  .hero-tagline {
+    letter-spacing: 0.3em;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    line-height: 1.05;
+    font-weight: 500;
+  }
+
+  .hero h1 em {
+    font-style: italic;
+    color: var(--gold);
+    font-weight: 400;
+  }
+
+  /* Animations */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .fade-up {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+  }
+  .fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Section heading */
+  .section-label {
+    letter-spacing: 0.3em;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: var(--gold);
+    font-weight: 600;
+  }
+
+  .section-title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.15;
+    color: var(--navy);
+  }
+
+  .divider {
+    width: 60px;
+    height: 2px;
+    background: var(--gold);
+    display: inline-block;
+  }
+
+  /* Property Cards */
+  .property-card {
+    background: white;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    border: 1px solid rgba(10, 31, 68, 0.06);
+  }
+  .property-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 50px rgba(10, 31, 68, 0.12);
+  }
+  .property-card img {
+    transition: transform 0.6s ease;
+  }
+  .property-card:hover img {
+    transform: scale(1.08);
+  }
+  .property-img-wrap {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .property-badge {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: var(--gold);
+    color: var(--navy);
+    padding: 6px 14px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    z-index: 2;
+  }
+
+  .property-price {
+    color: var(--navy);
+    font-weight: 700;
+    font-size: 1.25rem;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .property-spec {
+    color: var(--muted);
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  /* Testimonial slider */
+  .testimonial-slide {
+    opacity: 0;
+    transform: translateX(20px);
+    transition: all 0.5s ease;
+    position: absolute;
+    inset: 0;
+  }
+  .testimonial-slide.active {
+    opacity: 1;
+    transform: translateX(0);
+    position: relative;
+  }
+
+  .testimonial-dots .dot {
+    width: 30px;
+    height: 3px;
+    background: rgba(10, 31, 68, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  .testimonial-dots .dot.active {
+    background: var(--gold);
+  }
+
+  /* Floating WhatsApp */
+  .whatsapp-float {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 60px;
+    height: 60px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.75rem;
+    box-shadow: 0 10px 30px rgba(37, 211, 102, 0.4);
+    z-index: 99;
+    transition: all 0.3s ease;
+    animation: pulse 2s infinite;
+  }
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+  }
+
+  @keyframes pulse {
+    0% { box-shadow: 0 10px 30px rgba(37, 211, 102, 0.4), 0 0 0 0 rgba(37, 211, 102, 0.7); }
+    70% { box-shadow: 0 10px 30px rgba(37, 211, 102, 0.4), 0 0 0 20px rgba(37, 211, 102, 0); }
+    100% { box-shadow: 0 10px 30px rgba(37, 211, 102, 0.4), 0 0 0 0 rgba(37, 211, 102, 0); }
+  }
+
+  /* Mobile menu */
+  .mobile-menu {
+    transform: translateX(100%);
+    transition: transform 0.4s ease;
+  }
+  .mobile-menu.open {
+    transform: translateX(0);
+  }
+
+  /* Filter pills */
+  .filter-pill {
+    border: 1px solid rgba(10, 31, 68, 0.15);
+    padding: 8px 18px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: white;
+    color: var(--navy);
+  }
+  .filter-pill:hover, .filter-pill.active {
+    background: var(--navy);
+    color: white;
+    border-color: var(--navy);
+  }
+
+  /* Form inputs */
+  .form-input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid rgba(10, 31, 68, 0.15);
+    background: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+  }
+  .form-input:focus {
+    outline: none;
+    border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201, 169, 97, 0.1);
+  }
+
+  /* Why choose us icon box */
+  .feature-box {
+    transition: all 0.4s ease;
+    padding: 2.5rem 2rem;
+    background: white;
+    border: 1px solid rgba(10, 31, 68, 0.06);
+  }
+  .feature-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(10, 31, 68, 0.08);
+    border-color: var(--gold);
+  }
+  .feature-icon {
+    width: 60px;
+    height: 60px;
+    background: rgba(201, 169, 97, 0.1);
+    color: var(--gold);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+  }
+
+  /* Service card */
+  .service-card {
+    background: white;
+    padding: 2.5rem 2rem;
+    border: 1px solid rgba(10, 31, 68, 0.06);
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  .service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--gold);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+  }
+  .service-card:hover::before {
+    transform: scaleX(1);
+  }
+  .service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(10, 31, 68, 0.08);
+  }
+
+  /* Team */
+  .team-card img {
+    transition: transform 0.5s ease;
+  }
+  .team-card:hover img {
+    transform: scale(1.05);
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 10px; }
+  ::-webkit-scrollbar-track { background: var(--off-white); }
+  ::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 10px; }
+
+  /* Listing modal */
+  .modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(10, 31, 68, 0.8);
+    z-index: 100;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  .modal.open {
+    display: flex;
+  }
+  .modal-content {
+    background: white;
+    max-width: 900px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    border-radius: 8px;
+    position: relative;
+  }
+
+  /* Stats counter */
+  .stat-number {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    color: var(--gold);
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  /* Google badge */
+  .google-badge {
+    background: white;
+    border: 1px solid rgba(10, 31, 68, 0.1);
+    padding: 1.5rem 2rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 10px 30px rgba(10, 31, 68, 0.06);
+  }
+
+  /* Women owned badge */
+  .women-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(201, 169, 97, 0.1);
+    border: 1px solid var(--gold);
+    color: var(--navy);
+    padding: 8px 16px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  /* Search bar */
+  .search-bar {
+    background: white;
+    box-shadow: 0 20px 60px rgba(10, 31, 68, 0.15);
+  }
+
+  .search-input {
+    border: none;
+    border-right: 1px solid rgba(10, 31, 68, 0.1);
+    padding: 16px 20px;
+    font-family: 'Inter', sans-serif;
+    background: transparent;
+    width: 100%;
+  }
+  .search-input:focus { outline: none; }
+
+  @media (max-width: 768px) {
+    .search-input { border-right: none; border-bottom: 1px solid rgba(10, 31, 68, 0.1); }
+  }
+
+  /* Listing detail gallery */
+  .gallery-main {
+    aspect-ratio: 16/10;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+  }
+  .gallery-thumb {
+    aspect-ratio: 1;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+  .gallery-thumb:hover, .gallery-thumb.active {
+    opacity: 1;
+  }
+
+  /* Map */
+  .map-container {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(10, 31, 68, 0.08);
+  }
+
+  /* Hide scrollbar on some elements */
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header id="header" class="header fixed top-0 left-0 right-0 z-50 py-4">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+    <a href="#home" class="flex items-center gap-2">
+      <div class="w-10 h-10 bg-navy flex items-center justify-center">
+        <span class="serif text-xl font-bold text-white">G</span>
+      </div>
+      <div class="leading-tight">
+        <div class="serif text-lg font-bold navy-text leading-none">GLO Pinnacle</div>
+        <div class="text-[10px] tracking-[0.2em] uppercase text-gold font-semibold">Towers Realty</div>
+      </div>
+    </a>
+
+    <nav class="hidden lg:flex items-center gap-8">
+      <a href="#home" class="nav-link text-sm font-medium navy-text">Home</a>
+      <a href="#listings" class="nav-link text-sm font-medium navy-text">Listings</a>
+      <a href="#services" class="nav-link text-sm font-medium navy-text">Services</a>
+      <a href="#about" class="nav-link text-sm font-medium navy-text">About</a>
+      <a href="#testimonials" class="nav-link text-sm font-medium navy-text">Reviews</a>
+      <a href="#contact" class="nav-link text-sm font-medium navy-text">Contact</a>
+    </nav>
+
+    <div class="flex items-center gap-3">
+      <a href="tel:+2349013608051" class="hidden md:inline-flex btn-navy px-5 py-3 text-sm rounded-sm items-center gap-2">
+        <i class="fas fa-phone text-xs"></i>
+        <span>Call Now</span>
+      </a>
+      <button id="menuBtn" class="lg:hidden w-10 h-10 flex items-center justify-center navy-text" aria-label="Menu">
+        <i class="fas fa-bars text-xl"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile Menu -->
+<div id="mobileMenu" class="mobile-menu fixed top-0 right-0 w-80 max-w-full h-full bg-white z-[60] shadow-2xl p-8">
+  <div class="flex justify-between items-center mb-10">
+    <div class="serif text-xl font-bold navy-text">Menu</div>
+    <button id="closeMenu" class="w-10 h-10 flex items-center justify-center" aria-label="Close">
+      <i class="fas fa-times text-xl navy-text"></i>
+    </button>
+  </div>
+  <nav class="flex flex-col gap-5">
+    <a href="#home" class="mobile-link serif text-2xl navy-text">Home</a>
+    <a href="#listings" class="mobile-link serif text-2xl navy-text">Listings</a>
+    <a href="#services" class="mobile-link serif text-2xl navy-text">Services</a>
+    <a href="#about" class="mobile-link serif text-2xl navy-text">About</a>
+    <a href="#testimonials" class="mobile-link serif text-2xl navy-text">Reviews</a>
+    <a href="#contact" class="mobile-link serif text-2xl navy-text">Contact</a>
+    <hr class="my-4 border-gray-200">
+    <a href="tel:+2349013608051" class="btn-navy px-5 py-3 text-sm rounded-sm flex items-center justify-center gap-2">
+      <i class="fas fa-phone text-xs"></i>
+      <span>Call Now</span>
+    </a>
+    <a href="https://wa.me/2349013608051" target="_blank" class="btn-gold px-5 py-3 text-sm rounded-sm flex items-center justify-center gap-2">
+      <i class="fab fa-whatsapp"></i>
+      <span>WhatsApp</span>
+    </a>
+  </div>
+</div>
+
+<!-- HERO -->
+<section id="home" class="hero flex items-center pt-24">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-20">
+    <div class="max-w-3xl">
+      <div class="flex items-center gap-3 mb-6 fade-in">
+        <span class="divider"></span>
+        <span class="hero-tagline text-white/90">Premium Real Estate in Lagos</span>
+      </div>
+      <h1 class="text-white mb-6 fade-in">
+        Find Your <em>Place</em><br>in Lagos.
+      </h1>
+      <p class="text-white/85 text-lg md:text-xl mb-10 max-w-xl leading-relaxed fade-in">
+        A trusted, women-owned real estate agency helping you buy, sell, rent, and manage premium properties across Lagos — with integrity, elegance, and care.
+      </p>
+      <div class="flex flex-wrap gap-4 mb-14 fade-in">
+        <a href="#listings" class="btn-gold px-8 py-4 text-sm rounded-sm inline-flex items-center gap-2">
+          View Listings
+          <i class="fas fa-arrow-right text-xs"></i>
+        </a>
+        <a href="https://wa.me/2349013608051?text=Hello%20GLO%20Pinnacle%20Towers%2C%20I%27d%20like%20to%20enquire%20about%20your%20properties." target="_blank" class="btn-outline px-8 py-4 text-sm rounded-sm inline-flex items-center gap-2" style="border-color:white;color:white;">
+          <i class="fab fa-whatsapp"></i>
+          Chat on WhatsApp
+        </a>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="search-bar rounded-sm fade-in">
+        <div class="grid md:grid-cols-4">
+          <div class="flex flex-col">
+            <label class="px-5 pt-4 pb-1 text-xs font-semibold uppercase tracking-wider text-gray-500">Location</label>
+            <input type="text" placeholder="Surulere, Lekki, Ikeja..." class="search-input">
+          </div>
+          <div class="flex flex-col">
+            <label class="px-5 pt-4 pb-1 text-xs font-semibold uppercase tracking-wider text-gray-500">Property Type</label>
+            <select class="search-input">
+              <option>Any Type</option>
+              <option>House</option>
+              <option>Apartment</option>
+              <option>Land</option>
+              <option>Commercial</option>
+            </select>
+          </div>
+          <div class="flex flex-col">
+            <label class="px-5 pt-4 pb-1 text-xs font-semibold uppercase tracking-wider text-gray-500">Budget</label>
+            <select class="search-input">
+              <option>Any Budget</option>
+              <option>Under ₦20M</option>
+              <option>₦20M - ₦50M</option>
+              <option>₦50M - ₦100M</option>
+              <option>₦100M+</option>
+            </select>
+          </div>
+          <button class="bg-gold text-navy font-semibold text-sm uppercase tracking-wider hover:bg-yellow-600 transition">
+            <i class="fas fa-search mr-2"></i> Search
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<section class="bg-navy py-10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      <div class="fade-up">
+        <div class="stat-number" data-count="50">0</div>
+        <div class="text-white/70 text-sm mt-2 uppercase tracking-wider">Properties Sold</div>
+      </div>
+      <div class="fade-up">
+        <div class="stat-number" data-count="120">0</div>
+        <div class="text-white/70 text-sm mt-2 uppercase tracking-wider">Happy Clients</div>
+      </div>
+      <div class="fade-up">
+        <div class="stat-number">5.0</div>
+        <div class="text-white/70 text-sm mt-2 uppercase tracking-wider">Google Rating</div>
+      </div>
+      <div class="fade-up">
+        <div class="stat-number">100%</div>
+        <div class="text-white/70 text-sm mt-2 uppercase tracking-wider">Women-Led</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED LISTINGS -->
+<section id="listings" class="py-20 md:py-28 bg-off-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between mb-12 gap-6">
+      <div class="fade-up">
+        <div class="section-label mb-4">Featured Properties</div>
+        <h2 class="section-title">Curated Listings<br>Across Lagos</h2>
+      </div>
+      <p class="text-gray-600 max-w-md fade-up">
+        Handpicked residential and commercial properties, each verified for authenticity and value.
+      </p>
+    </div>
+
+    <!-- Filters -->
+    <div class="flex flex-wrap gap-2 mb-10 fade-up">
+      <button class="filter-pill active" data-filter="all">All</button>
+      <button class="filter-pill" data-filter="sale">For Sale</button>
+      <button class="filter-pill" data-filter="rent">For Rent</button>
+      <button class="filter-pill" data-filter="land">Land</button>
+      <button class="filter-pill" data-filter="commercial">Commercial</button>
+    </div>
+
+    <!-- Listings Grid -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" id="listingsGrid">
+      <!-- Card 1 -->
+      <article class="property-card rounded-sm fade-up" data-category="sale">
+        <div class="property-img-wrap">
+          <span class="property-badge">For Sale</span>
+          <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80" alt="Two-storey buildings for sale in Lagos" class="w-full h-64 object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <div class="flex items-start justify-between mb-2">
+            <h3 class="serif text-xl font-semibold navy-text">2 Nos. Two-Storey Buildings</h3>
+          </div>
+          <p class="text-sm text-gray-500 flex items-center gap-1 mb-4">
+            <i class="fas fa-map-marker-alt gold-text"></i> Surulere, Lagos
+          </p>
+          <div class="property-price mb-4">₦85,000,000</div>
+          <div class="flex items-center gap-4 mb-5 text-sm border-t border-gray-100 pt-4">
+            <span class="property-spec"><i class="fas fa-bed"></i> 6 Beds</span>
+            <span class="property-spec"><i class="fas fa-bath"></i> 7 Baths</span>
+            <span class="property-spec"><i class="fas fa-ruler-combined"></i> 450 sqm</span>
+          </div>
+          <button onclick="openListing(0)" class="w-full btn-outline py-3 text-sm rounded-sm">Enquire</button>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="property-card rounded-sm fade-up" data-category="sale">
+        <div class="property-img-wrap">
+          <span class="property-badge">For Sale</span>
+          <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80" alt="Prime property in Bayeku Igbogbo" class="w-full h-64 object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <h3 class="serif text-xl font-semibold navy-text mb-2">Prime Property in Bayeku</h3>
+          <p class="text-sm text-gray-500 flex items-center gap-1 mb-4">
+            <i class="fas fa-map-marker-alt gold-text"></i> Igbogbo, Lagos
+          </p>
+          <div class="property-price mb-4">₦42,000,000</div>
+          <div class="flex items-center gap-4 mb-5 text-sm border-t border-gray-100 pt-4">
+            <span class="property-spec"><i class="fas fa-bed"></i> 4 Beds</span>
+            <span class="property-spec"><i class="fas fa-bath"></i> 5 Baths</span>
+            <span class="property-spec"><i class="fas fa-ruler-combined"></i> 350 sqm</span>
+          </div>
+          <button onclick="openListing(1)" class="w-full btn-outline py-3 text-sm rounded-sm">Enquire</button>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="property-card rounded-sm fade-up" data-category="rent">
+        <div class="property-img-wrap">
+          <span class="property-badge">For Rent</span>
+          <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80" alt="Luxury apartment for rent in Lagos" class="w-full h-64 object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <h3 class="serif text-xl font-semibold navy-text mb-2">Luxury 3-Bed Apartment</h3>
+          <p class="text-sm text-gray-500 flex items-center gap-1 mb-4">
+            <i class="fas fa-map-marker-alt gold-text"></i> Lekki Phase 1, Lagos
+          </p>
+          <div class="property-price mb-4">₦5,500,000 <span class="text-xs text-gray-500 font-normal">/yr</span></div>
+          <div class="flex items-center gap-4 mb-5 text-sm border-t border-gray-100 pt-4">
+            <span class="property-spec"><i class="fas fa-bed"></i> 3 Beds</span>
+            <span class="property-spec"><i class="fas fa-bath"></i> 4 Baths</span>
+            <span class="property-spec"><i class="fas fa-ruler-combined"></i> 180 sqm</span>
+          </div>
+          <button onclick="openListing(2)" class="w-full btn-outline py-3 text-sm rounded-sm">Enquire</button>
+        </div>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="property-card rounded-sm fade-up" data-category="land">
+        <div class="property-img-wrap">
+          <span class="property-badge">Land</span>
+          <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80" alt="Land for sale in Lagos" class="w-full h-64 object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <h3 class="serif text-xl font-semibold navy-text mb-2">600 sqm Dry Land</h3>
+          <p class="text-sm text-gray-500 flex items-center gap-1 mb-4">
+            <i class="fas fa-map-marker-alt gold-text"></i> Ibeju-Lekki, Lagos
+          </p>
+          <div class="property-price mb-4">₦18,000,000</div>
+          <div class="flex items-center gap-4 mb-5 text-sm border-t border-gray-100 pt-4">
+            <span class="property-spec"><i class="fas fa-ruler-combined"></i> 600 sqm</span>
+            <span class="property-spec"><i class="fas fa-file-contract"></i> C of O</span>
+          </div>
+          <button onclick="openListing(3)" class="w-full btn-outline py-3 text-sm rounded-sm">Enquire</button>
+        </div>
+      </article>
+
+      <!-- Card 5 -->
+      <article class="property-card rounded-sm fade-up" data-category="commercial">
+        <div class="property-img-wrap">
+          <span class="property-badge">Commercial</span>
+          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80" alt="Commercial office space in Lagos" class="w-full h-64 object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <h3 class="serif text-xl font-semibold navy-text mb-2">Modern Office Space</h3>
+          <p class="text-sm text-gray-500 flex items-center gap-1 mb-4">
+            <i class="fas fa-map-marker-alt gold-text"></i> Victoria Island, Lagos
+          </p>
+          <div class="property-price mb-4">₦12,000,000 <span class="text-xs text-gray-500 font-normal">/yr</span></div>
+          <div class="flex items-center gap-4 mb-5 text-sm border-t border-gray-100 pt-4">
+            <span class="property-spec"><i class="fas fa-briefcase"></i> Office</span>
+            <span class="property-spec"><i class="fas fa-ruler-combined"></i> 300 sqm</span>
+            <span class="property-spec"><i class="fas fa-car"></i> Parking</span>
+          </div>
+          <button onclick="openListing(4)" class="w-full btn-outline py-3 text-sm rounded-sm">Enquire</button>
+        </div>
+      </article>
+
+      <!-- Card 6 -->
+      <article class="property-card rounded-sm fade-up" data-category="sale">
+        <div class="property-img-wrap">
+          <span class="property-badge">For Sale</span>
+          <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80" alt="Detached duplex for sale" class="w-full h-64 object-cover" loading="lazy">
+        </div>
+        <div class="p-6">
+          <h3 class="serif text-xl font-semibold navy-text mb-2">5-Bed Detached Duplex</h3>
+          <p class="text-sm text-gray-500 flex items-center gap-1 mb-4">
+            <i class="fas fa-map-marker-alt gold-text"></i> Ikeja GRA, Lagos
+          </p>
+          <div class="property-price mb-4">₦150,000,000</div>
+          <div class="flex items-center gap-4 mb-5 text-sm border-t border-gray-100 pt-4">
+            <span class="property-spec"><i class="fas fa-bed"></i> 5 Beds</span>
+            <span class="property-spec"><i class="fas fa-bath"></i> 6 Baths</span>
+            <span class="property-spec"><i class="fas fa-ruler-combined"></i> 500 sqm</span>
+          </div>
+          <button onclick="openListing(5)" class="w-full btn-outline py-3 text-sm rounded-sm">Enquire</button>
+        </div>
+      </article>
+    </div>
+
+    <div class="text-center mt-12 fade-up">
+      <a href="#contact" class="btn-navy px-8 py-4 text-sm rounded-sm inline-flex items-center gap-2">
+        View All Listings <i class="fas fa-arrow-right text-xs"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="py-20 md:py-28 bg-cream">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-16 fade-up">
+      <div class="section-label mb-4">Why Choose Us</div>
+      <h2 class="section-title mb-6">Built on Trust,<br>Delivered with <em class="gold-text">Elegance</em></h2>
+      <p class="text-gray-600">We combine integrity, expertise, and a personal touch to make every real estate journey smooth and rewarding.</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="feature-box rounded-sm fade-up">
+        <div class="feature-icon"><i class="fas fa-shield-halved"></i></div>
+        <h3 class="serif text-xl font-semibold navy-text mb-3">Trusted & Authentic</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Every property is verified. Every transaction is transparent. Your peace of mind is our priority.</p>
+      </div>
+      <div class="feature-box rounded-sm fade-up">
+        <div class="feature-icon"><i class="fas fa-award"></i></div>
+        <h3 class="serif text-xl font-semibold navy-text mb-3">Quality Service</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">We deliver premium service at every step — from the first viewing to the final signature.</p>
+      </div>
+      <div class="feature-box rounded-sm fade-up">
+        <div class="feature-icon"><i class="fas fa-clock"></i></div>
+        <h3 class="serif text-xl font-semibold navy-text mb-3">Always on Schedule</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">We respect your time. Meetings, viewings, and closings happen exactly when promised.</p>
+      </div>
+      <div class="feature-box rounded-sm fade-up">
+        <div class="feature-icon"><i class="fas fa-venus"></i></div>
+        <h3 class="serif text-xl font-semibold navy-text mb-3">Women-Led Team</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">A proudly women-owned business bringing empathy, detail, and excellence to real estate.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="py-20 md:py-28 bg-off-white">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-14 fade-up">
+      <div class="section-label mb-4">Client Stories</div>
+      <h2 class="section-title mb-6">What Our Clients Say</h2>
+      <div class="flex items-center justify-center gap-2 mb-2">
+        <div class="flex text-gold">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <span class="font-semibold navy-text">5.0</span>
+        <span class="text-gray-500 text-sm">· 7 Google Reviews</span>
+      </div>
+    </div>
+
+    <div class="relative fade-up">
+      <div id="testimonialSlider" class="relative min-h-[280px]">
+        <!-- Slide 1 -->
+        <div class="testimonial-slide active">
+          <div class="bg-white p-8 md:p-12 rounded-sm shadow-sm border border-gray-100 text-center">
+            <i class="fas fa-quote-left text-4xl gold-text mb-6"></i>
+            <p class="serif text-xl md:text-2xl navy-text leading-relaxed mb-8 italic">
+              "Very trusted and authentic, smooth experience with them."
+            </p>
+            <div class="flex items-center justify-center gap-4">
+              <div class="w-12 h-12 rounded-full bg-gold flex items-center justify-center text-navy font-bold">AF</div>
+              <div class="text-left">
+                <div class="font-semibold navy-text">Adeniyi Favour</div>
+                <div class="text-sm text-gray-500">Verified Client</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="testimonial-slide">
+          <div class="bg-white p-8 md:p-12 rounded-sm shadow-sm border border-gray-100 text-center">
+            <i class="fas fa-quote-left text-4xl gold-text mb-6"></i>
+            <p class="serif text-xl md:text-2xl navy-text leading-relaxed mb-8 italic">
+              "Excellent customer care, and always keeps to schedule. Good doing business with you."
+            </p>
+            <div class="flex items-center justify-center gap-4">
+              <div class="w-12 h-12 rounded-full bg-navy flex items-center justify-center text-white font-bold">AD</div>
+              <div class="text-left">
+                <div class="font-semibold navy-text">Anselm Dike</div>
+                <div class="text-sm text-gray-500">Verified Client</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="testimonial-slide">
+          <div class="bg-white p-8 md:p-12 rounded-sm shadow-sm border border-gray-100 text-center">
+            <i class="fas fa-quote-left text-4xl gold-text mb-6"></i>
+            <p class="serif text-xl md:text-2xl navy-text leading-relaxed mb-8 italic">
+              "This is a business based on quality service delivery."
+            </p>
+            <div class="flex items-center justify-center gap-4">
+              <div class="w-12 h-12 rounded-full bg-gold flex items-center justify-center text-navy font-bold">AJ</div>
+              <div class="text-left">
+                <div class="font-semibold navy-text">Adeniyi James</div>
+                <div class="text-sm text-gray-500">Verified Client</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex justify-center gap-3 mt-8 testimonial-dots">
+        <span class="dot active" data-slide="0"></span>
+        <span class="dot" data-slide="1"></span>
+        <span class="dot" data-slide="2"></span>
+      </div>
+    </div>
+
+    <div class="text-center mt-12 fade-up">
+      <a href="https://www.google.com/maps" target="_blank" class="google-badge inline-flex">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google" class="h-6">
+        <div class="text-left">
+          <div class="flex items-center gap-1 text-gold text-sm">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <div class="text-xs text-gray-500 mt-1">5.0 rating · 7 reviews</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="py-20 md:py-28 bg-navy">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-16 fade-up">
+      <div class="section-label mb-4">Our Services</div>
+      <h2 class="section-title mb-6 text-white">Comprehensive Real<br>Estate <em class="gold-text">Solutions</em></h2>
+      <p class="text-white/70">From finding your dream home to managing your portfolio — we handle it all with care and precision.</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="service-card rounded-sm fade-up">
+        <div class="feature-icon mb-6"><i class="fas fa-home"></i></div>
+        <h3 class="serif text-xl font-semibold navy-text mb-3">Property Sales</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Buy and sell residential and commercial properties with verified documentation and expert guidance.</p>
+      </div>
+      <div class="service-card rounded-sm fade-up">
+        <div class="feature-icon mb-6"><i class="fas fa-key"></i></div>
+        <h3 class="serif text-xl font-semibold navy-text mb-3">Rentals</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Find the perfect rental home or list your property with us for quality, screened tenants.</p>
+      </div>
+      <div class="service-card rounded-sm fade-up">
+        <div class="feature-icon mb-6"><i class="fas fa-building"></i></div>
+        <h3 class="serif text-xl font-semibold navy-text mb-3">Property Management</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Full-service management — tenant relations, maintenance, rent collection, and reporting.</p>
+      </div>
+      <div class="service-card rounded-sm fade-up">
+        <div class="feature-icon mb-6"><i class="fas fa-handshake"></i></div>
+        <h3 class="serif text-xl font-semibold navy-text mb-3">Consultancy</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">Expert advice on property investment, valuation, and market trends across Lagos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-20 md:py-28 bg-off-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-16 items-center mb-20">
+      <div class="fade-up">
+        <div class="section-label mb-4">About Us</div>
+        <h2 class="section-title mb-6">A New Standard in<br>Lagos Real Estate</h2>
+        <div class="women-badge mb-6">
+          <i class="fas fa-venus"></i>
+          <span>Women-Owned Business</span>
+        </div>
+        <p class="text-gray-600 leading-relaxed mb-5">
+          GLO Pinnacle Towers Realty Ltd opened its doors on <strong class="navy-text">April 13, 2026</strong>, with a singular vision — to redefine real estate in Lagos through integrity, warmth, and uncompromising quality.
+        </p>
+        <p class="text-gray-600 leading-relaxed mb-5">
+          Based in the heart of Surulere, we serve clients across Lagos with a personal touch that larger agencies often miss. Every client is family. Every property is a promise.
+        </p>
+        <p class="text-gray-600 leading-relaxed mb-8">
+          Our mission is simple: to help every Nigerian find not just a property, but a place they can truly call home — built on trust, delivered with excellence.
+        </p>
+        <div class="flex flex-wrap gap-6">
+          <div>
+            <div class="stat-number text-4xl">2026</div>
+            <div class="text-sm text-gray-500 uppercase tracking-wider">Founded</div>
+          </div>
+          <div>
+            <div class="stat-number text-4xl">5.0</div>
+            <div class="text-sm text-gray-500 uppercase tracking-wider">Google Rating</div>
+          </div>
+          <div>
+            <div class="stat-number text-4xl">100%</div>
+            <div class="text-sm text-gray-500 uppercase tracking-wider">Women-Led</div>
+          </div>
+        </div>
+      </div>
+      <div class="relative fade-up">
+        <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80" alt="Luxury home interior" class="w-full rounded-sm shadow-2xl">
+        <div class="absolute -bottom-8 -left-8 bg-gold p-6 rounded-sm shadow-xl hidden md:block">
+          <div class="serif text-4xl font-bold navy-text">Est.</div>
+          <div class="serif text-2xl font-bold navy-text">2026</div>
+          <div class="text-xs uppercase tracking-wider navy-text mt-2">Surulere, Lagos</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team -->
+    <div class="text-center mb-12 fade-up">
+      <div class="section-label mb-4">Meet the Team</div>
+      <h3 class="serif text-3xl navy-text">The Women Behind the Vision</h3>
+    </div>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="team-card text-center fade-up">
+        <div class="overflow-hidden rounded-sm mb-5">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&q=80" alt="Team member" class="w-full h-80 object-cover">
+        </div>
+        <h4 class="serif text-xl font-semibold navy-text">Mrs. Gloria Okafor</h4>
+        <p class="text-sm gold-text uppercase tracking-wider mb-2">Founder & CEO</p>
+        <p class="text-sm text-gray-600">Visionary leader with 12+ years in Lagos real estate.</p>
+      </div>
+      <div class="team-card text-center fade-up">
+        <div class="overflow-hidden rounded-sm mb-5">
+          <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&q=80" alt="Team member" class="w-full h-80 object-cover">
+        </div>
+        <h4 class="serif text-xl font-semibold navy-text">Ms. Adaeze Nwosu</h4>
+        <p class="text-sm gold-text uppercase tracking-wider mb-2">Head of Sales</p>
+        <p class="text-sm text-gray-600">Expert negotiator closing premium deals across Lagos.</p>
+      </div>
+      <div class="team-card text-center fade-up">
+        <div class="overflow-hidden rounded-sm mb-5">
+          <img src="https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=500&q=80" alt="Team member" class="w-full h-80 object-cover">
+        </div>
+        <h4 class="serif text-xl font-semibold navy-text">Ms. Funke Adeyemi</h4>
+        <p class="text-sm gold-text uppercase tracking-wider mb-2">Property Manager</p>
+        <p class="text-sm text-gray-600">Dedicated to exceptional client experiences.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="py-20 bg-navy relative overflow-hidden">
+  <div class="absolute inset-0 opacity-10" style="background-image: url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&q=80'); background-size: cover; background-position: center;"></div>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+    <h2 class="serif text-4xl md:text-5xl text-white mb-6 fade-up">Ready to Find Your<br><em class="gold-text">Dream Property?</em></h2>
+    <p class="text-white/80 text-lg mb-10 max-w-2xl mx-auto fade-up">Let our team guide you through every step — from first viewing to final signature.</p>
+    <div class="flex flex-wrap justify-center gap-4 fade-up">
+      <a href="#contact" class="btn-gold px-8 py-4 text-sm rounded-sm inline-flex items-center gap-2">
+        Get Started <i class="fas fa-arrow-right text-xs"></i>
+      </a>
+      <a href="https://wa.me/2349013608051" target="_blank" class="px-8 py-4 text-sm rounded-sm inline-flex items-center gap-2 border border-white/40 text-white hover:bg-white hover:text-navy transition">
+        <i class="fab fa-whatsapp"></i> WhatsApp Us
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-20 md:py-28 bg-off-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-16 fade-up">
+      <div class="section-label mb-4">Get in Touch</div>
+      <h2 class="section-title mb-6">Let's Start Your<br>Property Journey</h2>
+      <p class="text-gray-600">Visit our office, call, or send a message — we respond within 24 hours.</p>
+    </div>
+
+    <div class="grid lg:grid-cols-2 gap-12">
+      <!-- Contact Info -->
+      <div class="fade-up">
+        <div class="bg-white p-8 md:p-10 rounded-sm shadow-sm border border-gray-100 mb-8">
+          <h3 class="serif text-2xl navy-text mb-8">Contact Information</h3>
+          <div class="space-y-6">
+            <div class="flex gap-4">
+              <div class="feature-icon flex-shrink-0" style="width:50px;height:50px;margin:0;"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <div class="text-xs uppercase tracking-wider text-gray-500 mb-1">Office Address</div>
+                <div class="navy-text font-medium">4 Olatilewa St, Surulere<br>101283, Lagos, Nigeria</div>
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <div class="feature-icon flex-shrink-0" style="width:50px;height:50px;margin:0;"><i class="fas fa-phone"></i></div>
+              <div>
+                <div class="text-xs uppercase tracking-wider text-gray-500 mb-1">Phone / WhatsApp</div>
+                <a href="tel:+2349013608051" class="navy-text font-medium hover:text-gold">0901 360 8051</a>
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <div class="feature-icon flex-shrink-0" style="width:50px;height:50px;margin:0;"><i class="fas fa-clock"></i></div>
+              <div>
+                <div class="text-xs uppercase tracking-wider text-gray-500 mb-1">Opening Hours</div>
+                <div class="navy-text font-medium">Mon - Fri: 8:30 AM - 5:30 PM<br>Sat: 9:00 AM - 3:00 PM<br>Sun: Closed</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex gap-3 mt-8 pt-8 border-t border-gray-100">
+            <a href="tel:+2349013608051" class="btn-navy flex-1 py-3 text-sm rounded-sm flex items-center justify-center gap-2">
+              <i class="fas fa-phone"></i> Call
+            </a>
+            <a href="https://wa.me/2349013608051" target="_blank" class="btn-gold flex-1 py-3 text-sm rounded-sm flex items-center justify-center gap-2">
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Map -->
+        <div class="map-container fade-up">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.023!2d3.35!3d6.50!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s4+Olatilewa+St%2C+Surulere%2C+Lagos!5e0!3m2!1sen!2sng!4v1700000000000"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="GLO Pinnacle Towers Realty Location"></iframe>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="fade-up">
+        <form id="contactForm" class="bg-white p-8 md:p-10 rounded-sm shadow-sm border border-gray-100">
+          <h3 class="serif text-2xl navy-text mb-2">Send Us a Message</h3>
+          <p class="text-sm text-gray-500 mb-8">We'll get back to you within 24 hours.</p>
+
+          <div class="space-y-5">
+            <div>
+              <label class="block text-xs uppercase tracking-wider text-gray-600 mb-2 font-semibold">Full Name *</label>
+              <input type="text" name="name" required class="form-input" placeholder="John Doe">
+            </div>
+            <div class="grid md:grid-cols-2 gap-5">
+              <div>
+                <label class="block text-xs uppercase tracking-wider text-gray-600 mb-2 font-semibold">Phone *</label>
+                <input type="tel" name="phone" required class="form-input" placeholder="0801 234 5678">
+              </div>
+              <div>
+                <label class="block text-xs uppercase tracking-wider text-gray-600 mb-2 font-semibold">Email</label>
+                <input type="email" name="email" class="form-input" placeholder="you@example.com">
+              </div>
+            </div>
+            <div>
+              <label class="block text-xs uppercase tracking-wider text-gray-600 mb-2 font-semibold">I'm Interested In *</label>
+              <select name="interest" required class="form-input">
+                <option value="">Select an option</option>
+                <option>Buying a Property</option>
+                <option>Selling a Property</option>
+                <option>Renting a Property</option>
+                <option>Property Management</option>
+                <option>Consultancy</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs uppercase tracking-wider text-gray-600 mb-2 font-semibold">Message *</label>
+              <textarea name="message" rows="5" required class="form-input" placeholder="Tell us about your requirements..."></textarea>
+            </div>
+            <button type="submit" class="w-full btn-navy py-4 text-sm rounded-sm uppercase tracking-wider">
+              Send Message
+            </button>
+            <p class="text-xs text-gray-500 text-center">By submitting, you agree to be contacted by our team.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-navy text-white pt-16 pb-8">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+      <div>
+        <div class="flex items-center gap-2 mb-5">
+          <div class="w-10 h-10 bg-gold flex items-center justify-center">
+            <span class="serif text-xl font-bold navy-text">G</span>
+          </div>
+          <div class="leading-tight">
+            <div class="serif text-lg font-bold leading-none">GLO Pinnacle</div>
+            <div class="text-[10px] tracking-[0.2em] uppercase text-gold font-semibold">Towers Realty</div>
+          </div>
+        </div>
+        <p class="text-white/70 text-sm leading-relaxed mb-5">A trusted, women-owned real estate agency delivering premium properties and exceptional service across Lagos.</p>
+        <div class="women-badge" style="background:rgba(201,169,97,0.1);border-color:var(--gold);color:white;">
+          <i class="fas fa-venus"></i>
+          <span>Women-Owned</span>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="serif text-lg mb-5 text-gold">Quick Links</h4>
+        <ul class="space-y-3 text-sm">
+          <li><a href="#home" class="text-white/70 hover:text-gold transition">Home</a></li>
+          <li><a href="#listings" class="text-white/70 hover:text-gold transition">Listings</a></li>
+          <li><a href="#services" class="text-white/70 hover:text-gold transition">Services</a></li>
+          <li><a href="#about" class="text-white/70 hover:text-gold transition">About Us</a></li>
+          <li><a href="#testimonials" class="text-white/70 hover:text-gold transition">Reviews</a></li>
+          <li><a href="#contact" class="text-white/70 hover:text-gold transition">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="serif text-lg mb-5 text-gold">Services</h4>
+        <ul class="space-y-3 text-sm">
+          <li><a href="#services" class="text-white/70 hover:text-gold transition">Property Sales</a></li>
+          <li><a href="#services" class="text-white/70 hover:text-gold transition">Rentals</a></li>
+          <li><a href="#services" class="text-white/70 hover:text-gold transition">Property Management</a></li>
+          <li><a href="#services" class="text-white/70 hover:text-gold transition">Land Sales</a></li>
+          <li><a href="#services" class="text-white/70 hover:text-gold transition">Consultancy</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="serif text-lg mb-5 text-gold">Contact</h4>
+        <ul class="space-y-3 text-sm text-white/70">
+          <li class="flex gap-3"><i class="fas fa-map-marker-alt gold-text mt-1"></i><span>4 Olatilewa St, Surulere, 101283, Lagos</span></li>
+          <li class="flex gap-3"><i class="fas fa-phone gold-text mt-1"></i><a href="tel:+2349013608051" class="hover:text-gold">0901 360 8051</a></li>
+          <li class="flex gap-3"><i class="fab fa-whatsapp gold-text mt-1"></i><a href="https://wa.me/2349013608051" class="hover:text-gold">WhatsApp</a></li>
+        </ul>
+        <div class="flex gap-3 mt-5">
+          <a href="#" aria-label="Facebook" class="w-10 h-10 border border-white/20 flex items-center justify-center hover:bg-gold hover:border-gold hover:text-navy transition"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" class="w-10 h-10 border border-white/20 flex items-center justify-center hover:bg-gold hover:border-gold hover:text-navy transition"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter" class="w-10 h-10 border border-white/20 flex items-center justify-center hover:bg-gold hover:border-gold hover:text-navy transition"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn" class="w-10 h-10 border border-white/20 flex items-center justify-center hover:bg-gold hover:border-gold hover:text-navy transition"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/60">
+      <div>© 2026 GLO Pinnacle Towers Realty Ltd. All rights reserved.</div>
+      <div class="flex gap-6">
+        <a href="#" class="hover:text-gold">Privacy Policy</a>
+        <a href="#" class="hover:text-gold">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/2349013608051?text=Hello%20GLO%20Pinnacle%20Towers%2C%20I%27d%20like%20to%20enquire%20about%20your%20properties." target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Listing Modal -->
+<div id="listingModal" class="modal" role="dialog" aria-modal="true">
+  <div class="modal-content">
+    <button onclick="closeListing()" class="absolute top-4 right-4 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-lg z-10 hover:bg-gray-100" aria-label="Close">
+      <i class="fas fa-times navy-text"></i>
+    </button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script>
+  // Listing data
+  const listings = [
+    {
+      title: "2 Nos. Two-Storey Buildings",
+      location: "Surulere, Lagos",
+      price: "₦85,000,000",
+      type: "For Sale",
+      beds: 6, baths: 7, area: "450 sqm",
+      description: "Two beautifully maintained two-storey buildings in a prime Surulere location. Ideal for investment, family residence, or rental income. Each unit features spacious living areas, modern kitchens, and secure parking.",
+      features: ["6 Bedrooms total", "7 Bathrooms", "Spacious living rooms", "Modern fitted kitchens", "Ample parking space", "24/7 security", "Tiled flooring throughout", "Serene neighborhood"],
+      images: [
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1200&q=80",
+        "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80",
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
+      ]
+    },
+    {
+      title: "Prime Property in Bayeku",
+      location: "Igbogbo, Lagos",
+      price: "₦42,000,000",
+      type: "For Sale",
+      beds: 4, baths: 5, area: "350 sqm",
+      description: "A stunning modern home with elegant tiled entrance, set in the peaceful Bayeku area of Igbogbo. Perfect for families seeking quality living with excellent access to major roads and amenities.",
+      features: ["4 En-suite Bedrooms", "Modern tiled entrance", "Spacious compound", "Boys' quarter", "Pre-installed plumbing", "Secure perimeter fencing", "Tarred access road", "Close to major amenities"],
+      images: [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+        "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=800&q=80",
+        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80"
+      ]
+    },
+    {
+      title: "Luxury 3-Bed Apartment",
+      location: "Lekki Phase 1, Lagos",
+      price: "₦5,500,000/yr",
+      type: "For Rent",
+      beds: 3, baths: 4, area: "180 sqm",
+      description: "Luxurious 3-bedroom apartment in the heart of Lekki Phase 1. Features premium finishes, 24-hour power, and excellent security. Ideal for professionals and small families.",
+      features: ["3 En-suite Bedrooms", "Premium finishes", "24/7 power supply", "Fitted kitchen", "Ample parking", "24-hour security", "Swimming pool access", "Elevator service"],
+      images: [
+        "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&q=80",
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&q=80",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80",
+        "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=800&q=80"
+      ]
+    },
+    {
+      title: "600 sqm Dry Land",
+      location: "Ibeju-Lekki, Lagos",
+      price: "₦18,000,000",
+      type: "Land",
+      beds: 0, baths: 0, area: "600 sqm",
+      description: "Dry, firm land with C of O in the rapidly developing Ibeju-Lekki corridor. Excellent investment opportunity with high appreciation potential near the refinery and free trade zone.",
+      features: ["600 sqm plot", "C of O title", "Dry, firm land", "Gate estate", "Tarred access road", "High appreciation area", "Near refinery", "Ready for development"],
+      images: [
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&q=80",
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80",
+        "https://images.unsplash.com/photo-1464082354059-27db6ce50068?w=800&q=80",
+        "https://images.unsplash.com/photo-1500079008522-b1cc287d7b62?w=800&q=80"
+      ]
+    },
+    {
+      title: "Modern Office Space",
+      location: "Victoria Island, Lagos",
+      price: "₦12,000,000/yr",
+      type: "Commercial",
+      beds: 0, baths: 0, area: "300 sqm",
+      description: "Premium office space in Victoria Island's business district. Fully fitted with modern amenities, ample parking, and 24/7 security. Perfect for corporate offices and professional firms.",
+      features: ["300 sqm open plan", "Fitted with AC", "Ample parking", "24/7 security", "High-speed internet ready", "Executive boardroom", "Reception area", "Backup generator"],
+      images: [
+        "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80",
+        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&q=80",
+        "https://images.unsplash.com/photo-1604328698692-f76ea94b8f46?w=800&q=80",
+        "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80"
+      ]
+    },
+    {
+      title: "5-Bed Detached Duplex",
+      location: "Ikeja GRA, Lagos",
+      price: "₦150,000,000",
+      type: "For Sale",
+      beds: 5, baths: 6, area: "500 sqm",
+      description: "Exquisite 5-bedroom fully detached duplex in the prestigious Ikeja GRA. Features luxury finishes, smart home technology, and a spacious compound. The epitome of Lagos luxury living.",
+      features: ["5 En-suite Bedrooms", "Smart home features", "Luxury finishes", "Spacious compound", "Boys' quarter", "Home cinema", "Heated swimming pool", "3-car garage"],
+      images: [
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80"
+      ]
+    }
+  ];
+
+  // Open listing modal
+  function openListing(index) {
+    const listing = listings[index];
+    const modal = document.getElementById('listingModal');
+    const body = document.getElementById('modalBody');
+
+    const whatsappMsg = encodeURIComponent(`Hello GLO Pinnacle Towers, I'd like to enquire about: ${listing.title} (${listing.location}) - ${listing.price}`);
+
+    body.innerHTML = `
+      <div class="p-4 md:p-8">
+        <div class="grid md:grid-cols-3 gap-3 mb-6">
+          <div class="md:col-span-2 gallery-main" style="background-image:url('${listing.images[0]}')" id="mainGallery"></div>
+          <div class="grid grid-cols-2 md:grid-cols-1 gap-3">
+            ${listing.images.slice(1, 5).map((img, i) => `<div class="gallery-thumb" style="background-image:url('${img}')" onclick="document.getElementById('mainGallery').style.backgroundImage='url(${img})'"></div>`).join('')}
+          </div>
+        </div>
+
+        <div class="flex items-start justify-between flex-wrap gap-4 mb-4">
+          <div>
+            <div class="text-xs uppercase tracking-wider gold-text font-semibold mb-2">${listing.type}</div>
+            <h2 class="serif text-3xl navy-text font-semibold">${listing.title}</h2>
+            <p class="text-gray-500 mt-2"><i class="fas fa-map-marker-alt gold-text mr-2"></i>${listing.location}</p>
+          </div>
+          <div class="serif text-3xl font-bold navy-text">${listing.price}</div>
+        </div>
+
+        <div class="flex gap-6 py-5 border-y border-gray-100 my-6">
+          ${listing.beds ? `<div class="text-center"><div class="serif text-2xl navy-text font-semibold">${listing.beds}</div><div class="text-xs uppercase tracking-wider text-gray-500">Beds</div></div>` : ''}
+          ${listing.baths ? `<div class="text-center"><div class="serif text-2xl navy-text font-semibold">${listing.baths}</div><div class="text-xs uppercase tracking-wider text-gray-500">Baths</div></div>` : ''}
+          <div class="text-center"><div class="serif text-2xl navy-text font-semibold">${listing.area}</div><div class="text-xs uppercase tracking-wider text-gray-500">Area</div></div>
+        </div>
+
+        <h3 class="serif text-xl navy-text mb-3">About this property</h3>
+        <p class="text-gray-600 leading-relaxed mb-6">${listing.description}</p>
+
+        <h3 class="serif text-xl navy-text mb-3">Features</h3>
+        <ul class="grid md:grid-cols-2 gap-2 mb-8">
+          ${listing.features.map(f => `<li class="flex items-center gap-2 text-sm text-gray-700"><i class="fas fa-check gold-text text-xs"></i>${f}</li>`).join('')}
+        </ul>
+
+        <div class="flex flex-wrap gap-3">
+          <a href="https://wa.me/2349013608051?text=${whatsappMsg}" target="_blank" class="btn-gold flex-1 py-3 text-sm rounded-sm flex items-center justify-center gap-2">
+            <i class="fab fa-whatsapp"></i> Enquire on WhatsApp
+          </a>
+          <a href="tel:+2349013608051" class="btn-outline flex-1 py-3 text-sm rounded-sm flex items-center justify-center gap-2">
+            <i class="fas fa-phone"></i> Call Agent
+          </a>
+        </div>
+      </div>
+    `;
+
+    modal.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeListing() {
+    document.getElementById('listingModal').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  document.getElementById('listingModal').addEventListener('click', (e) => {
+    if (e.target.id === 'listingModal') closeListing();
+  });
+
+  // Header scroll
+  const header = document.getElementById('header');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) header.classList.add('scrolled');
+    else header.classList.remove('scrolled');
+  });
+
+  // Mobile menu
+  const menuBtn = document.getElementById('menuBtn');
+  const closeMenu = document.getElementById('closeMenu');
+  const mobileMenu = document.getElementById('mobileMenu');
+
+  menuBtn.addEventListener('click', () => mobileMenu.classList.add('open'));
+  closeMenu.addEventListener('click', () => mobileMenu.classList.remove('open'));
+  document.querySelectorAll('.mobile-link').forEach(link => {
+    link.addEventListener('click', () => mobileMenu.classList.remove('open'));
+  });
+
+  // Filter pills
+  document.querySelectorAll('.filter-pill').forEach(pill => {
+    pill.addEventListener('click', () => {
+      document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      const filter = pill.dataset.filter;
+      document.querySelectorAll('#listingsGrid .property-card').forEach(card => {
+        if (filter === 'all' || card.dataset.category === filter) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  // Testimonial slider
+  const slides = document.querySelectorAll('.testimonial-slide');
+  const dots = document.querySelectorAll('.testimonial-dots .dot');
+  let currentSlide = 0;
+
+  function showSlide(n) {
+    slides.forEach(s => s.classList.remove('active'));
+    dots.forEach(d => d.classList.remove('active'));
+    slides[n].classList.add('active');
+    dots[n].classList.add('active');
+    currentSlide = n;
+  }
+
+  dots.forEach((dot, i) => {
+    dot.addEventListener('click', () => showSlide(i));
+  });
+
+  setInterval(() => {
+    showSlide((currentSlide + 1) % slides.length);
+  }, 6000);
+
+  // Fade in animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.fade-in, .fade-up').forEach(el => observer.observe(el));
+
+  // Counter animation
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        const target = parseInt(el.dataset.count);
+        if (target && !el.dataset.counted) {
+          el.dataset.counted = 'true';
+          let current = 0;
+          const increment = target / 50;
+          const timer = setInterval(() => {
+            current += increment;
+            if (current >= target) {
+              el.textContent = target + '+';
+              clearInterval(timer);
+            } else {
+              el.textContent = Math.floor(current);
+            }
+          }, 30);
+        }
+      }
+    });
+  }, { threshold: 0.5 });
+
+  document.querySelectorAll('.stat-number[data-count]').forEach(el => counterObserver.observe(el));
+
+  // Contact form
+  document.getElementById('contactForm').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const name = formData.get('name');
+    const phone = formData.get('phone');
+    const email = formData.get('email');
+    const interest = formData.get('interest');
+    const message = formData.get('message');
+
+    const whatsappMsg = encodeURIComponent(`Hello GLO Pinnacle Towers,\n\nName: ${name}\nPhone: ${phone}\nEmail: ${email}\nInterest: ${interest}\n\nMessage: ${message}`);
+
+    window.open(`https://wa.me/2349013608051?text=${whatsappMsg}`, '_blank');
+
+    alert('Thank you! Your message has been sent. We\'ll contact you shortly.');
+    e.target.reset();
+  });
+
+  // Active nav link
+  const sections = document.querySelectorAll('section[id]');
+  window.addEventListener('scroll', () => {
+    const scrollPos = window.scrollY + 100;
+    sections.forEach(section => {
+      const top = section.offsetTop;
+      const height = section.offsetHeight;
+      const id = section.getAttribute('id');
+      const link = document.querySelector(`.nav-link[href="#${id}"]`);
+      if (link) {
+        if (scrollPos >= top && scrollPos < top + height) {
+          document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+          link.classList.add('active');
+        }
+      }
+    });
+  });
+
+  // Escape key closes modal
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeListing();
+      mobileMenu.classList.remove('open');
+    }
+  });
+</script>
+
+</body>
+</html>
